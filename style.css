@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-shape-divider-bottom-1606775958 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1606775958 svg {
+  position: relative;
+  display: block;
+  width: calc(168% + 1.3px);
+  height: 176px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1606775958 .shape-fill {
+  fill: #ffffff;
+}
+.image-container {
+  display: block;
+  position: relative;
+}
+.home {
+  height: 95vh;
+  background-color: #f0027f;
+  background-image: linear-gradient(160deg, #f36476, #ee733a);
+}
