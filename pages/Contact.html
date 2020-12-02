@@ -1,17 +1,45 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="main-nav" style="background:linear-gradient(160deg, #f36476, #ee733a);">
+        <div class="raw-container">
+            <a id="logo" href="#"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li class="menu-wrapper">Home</li>
+                <li class="menu-wrapper">About</li>
+                <li class="menu-wrapper">Contact</li>
+            </ul>
+            <div class="header-icon">
+                <span class="menu-icon">
+                    <i class="fa fa-search"></i>
+                </span>
+                <span class="menu-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <section class="contact-info">
+        <address>
+            One Microsoft Way<br />
+            Redmond, WA 98052-6399<br />
+            <abbr title="Phone">P:</abbr>
+            425.555.0100
+        </address>
+        
+        <address>
+            <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+        </address>
+    </section>
+</body>
+</html>
