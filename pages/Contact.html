@@ -14,9 +14,9 @@
         </div>
         <nav>
             <ul class="menu">
-                <li class="menu-wrapper">Home</li>
-                <li class="menu-wrapper">About</li>
-                <li class="menu-wrapper">Contact</li>
+                <li class="menu-wrapper"><a href="../index.html">Home</a></li>
+                <li class="menu-wrapper"><a href="./About.html">About</a></li>
+                <li class="menu-wrapper"><a href="Contact.html">Contact</a></li>
             </ul>
             <div class="header-icon">
                 <span class="menu-icon">
@@ -29,17 +29,45 @@
         </nav>
     </div>
     <section class="contact-info">
-        <address>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399<br />
-            <abbr title="Phone">P:</abbr>
-            425.555.0100
-        </address>
-        
-        <address>
-            <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-        </address>
+        <h1>Get in Touch</h1>
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <div class="personal-data" style="display: flex;">
+                    <div style="margin-right: 50px;width: 120%;">
+                      <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" placeholder="Enter your name">
+                    </div>
+                    <div style="width: 120%;">
+                      <input class="form-control" name="email" id="email" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your email'" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div><input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder="Enter Subject"></div>
+                <div><textarea class="form-control" style="height:100px;" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder="Enter Message"></textarea></div>
+                <a href="#">Send Message</a>
+            </form>
+            <div class="media-info">
+              <div class="media contact-info">
+                <span class="contact-info__icon"><i class="fa fa-home"></i></span>
+                <div class="media-body">
+                  <h3>One Microsoft Way</h3>
+                  <p>Redmond, WA 98052-6399</p>
+                </div>
+              </div>
+              <div class="media contact-info">
+                <span class="contact-info__icon"><i class="fa fa-tablet"></i></span>
+                <div class="media-body">
+                  <h3>425.555.0100</h3>
+                  <p>Mon to Fri 9am to 6pm</p>
+                </div>
+              </div>
+              <div class="media contact-info">
+                <span class="contact-info__icon"><i class="fa fa-envelope"></i></span>
+                <div class="media-body">
+                  <h3><a href="mailto:Support@example.com">Support@example.com</a></h3>
+                  <p>Send us your query anytime!</p>
+                </div>
+              </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>
